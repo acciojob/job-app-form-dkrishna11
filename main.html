@@ -8,6 +8,51 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<label for="name">
+			Name: <input type="text" name="Name" placeholder="Name" required id="name">
+		</label>
+		<br>
+		<br>
+		<label for="email">
+			Email: <input type="email" name="email" placeholder="Email" required id="email">
+		</label>
+		<br><br>
+		<label for="gender">
+			Male: <input type="radio" name="gender" for="gender" id="gender_m" required>
+			Female: <input type="radio" name="gender" for="gender" id="gender_f" required>
+		</label>
+		<br><br>
+		<label for="laptop">
+			Laptop: <select id="laptop">
+				<option>Apple</option>
+				<option>Asus</option>
+				<option>HP</option>
+			</select>
+			
+		</label>
+		<br><br>
+		<label for="age">
+			Age: <input type="number" name="Age" placeholder="Age" required id="age">
+		</label>
+		<br><br>
+		<label for="dob">
+			DOB: <input type="date" name="dob" required id="dob">
+		</label>
+		<br><br>
+		<label for="password">
+			Password: <input type="password" name="password" id="password" required placeholder="Password">
+		</label>
+		<br><br>
+		<label for="tos">
+			 <input type="checkbox" name="tos" required id="tos"> I agree to the TOS
+		</label>
+		<br><br>
+		<label for="submit">
+			<button type="submit" name="submit" id=>Submit</button>
+		</label>
+	</form>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
